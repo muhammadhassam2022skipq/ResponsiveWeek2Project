@@ -36,12 +36,11 @@ body {
 /* Designing the image section */
 
 #img-section {
-    padding:160px;
+    padding:140px;
     background-image: url("/images/banner.jpg");
     background-repeat: no-repeat;
     height: 400px;
 }
-
 
 /* Designing the services section */
 #services h5,p{
@@ -52,79 +51,26 @@ body {
     font-weight: bold;
 }
 
-.services .serviesdescription {
-    width: 24%;
-    margin: 10px;
-}
-
-.services p,
-h3 {
-    text-align: left;
-}
-
-.services h3 {
-    margin: 20px 0px;
-}
-
-.services .serviesdescription img {
-    width: 100%;
-    margin: 10px 0px;
-}
-
-.center {
-    text-align: center;
-    margin: 20px;
-}
 
 /* Designing the about us section */
-.about {
-    display: flex;
+#about img {
+width: 100%;
+}
+#about h4,h1,p {
     text-align: left;
-}
-
-.about h4 {
-    font-weight: lighter;
-    margin: 50px 0px 20px 0px;
-}
-
-.about h1 {
-    padding-right: 250px;
-    font-size: 2.5rem;
-    font-weight: lighter;
-    margin-bottom: 20px;
-}
-
-.about p {
-    color: rgb(119, 118, 118);
-    margin-bottom: 35px;
-    padding-right: 50px;
-}
-
-.about div {
-    display: flex;
-    flex-direction: column;
-}
-
-.about a {
-    text-decoration: none;
-    color: black;
-    padding: 15px;
-    border: 2px solid gray;
-    text-align: center;
-    border-radius: 3px;
-    width: 250px;
-}
-
-.about-img img {
-    height: 450px;
+} 
+.btn{
+    width: 200px;
+    background-color: gray;
 }
 
 /* Desiging the question section */
-.question {
+#question {
     background-image: url(/images/qurestions-banner.jpg);
     background-repeat: no-repeat;
     height: 500px;
-    padding: 180px 120px;
+    text-align: center;
+    /* padding: 180px 120px; */
 }
 
 .question-btn {
